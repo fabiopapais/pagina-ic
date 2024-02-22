@@ -22,7 +22,7 @@ header {
 }
 
 header #profile h1 {
-    font-size: 1.5rem;
+    font-size: 2.1rem;
     font-weight: 700;
 }
 
@@ -50,14 +50,14 @@ header nav {
     overflow: hidden;
 }
 header nav a {
-    font-size: 3rem;
+    font-size: 3.7rem;
     color: rgba(255, 255, 255, 0.707);
     text-decoration: none;
 }
 
 header nav h2 {
     margin-top: 0.35rem;
-    font-size: 0.8rem;
+    font-size: 1.5rem;
     transition: 0.6s;
 }
 
@@ -76,19 +76,19 @@ main div + div {
 }
 
 main div h2 {
-    font-size: 1.6rem;
+    font-size: 2.3rem;
     margin-bottom: 10px;
 }
 
 main div p {
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     font-weight: 400;
     color: rgb(30, 30, 30);
 }
 
 main div li {
     margin-left: 20px;
-    font-size: 0.8rem;
+    font-size: 1.3rem;
 }
 
 main div li + li {
@@ -97,12 +97,12 @@ main div li + li {
 
 main div li p {
     margin-top: 5px;
-    font-size: 0.6rem;
+    font-size: 1.3rem;
 }
 
 footer {
     padding: 0.5rem 1.8rem;
-    font-size: 0.5rem;
+    font-size: 1.2rem;
     color: rgb(0, 0, 0);
     background-color: rgb(206, 206, 206);
 }
@@ -114,7 +114,10 @@ footer {
         justify-content: center;
     }
     header {
-        width: 1500px;
+        width: 3000px;
+        display: flex;
+        align-items: center;
+        padding: 70px 0;
     }
     body > div {
         display: flex;
