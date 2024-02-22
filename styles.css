@@ -33,6 +33,10 @@ header #profile img {
     box-shadow: -1px -1px 43px -1px rgba(255, 255, 255, 0.217);
 }
 
+header #icons {
+    margin-top: 20px;
+}
+
 header #icons a {
     color: rgb(255, 255, 255);
     text-decoration: none;
